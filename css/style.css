@@ -1,0 +1,93 @@
+
+@font-face {
+    font-family: "din-light";
+    src: url("../fonts/DIN-Light.otf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "din-medium";
+    src: url("../fonts/DIN-Medium.otf");
+    font-weight: normal;
+}
+.accordion .card {
+    border:none;
+}
+.accordion>.card .card-header {
+    margin-bottom: 0px;
+}
+.accordion .card-body {
+    padding-top: 1px;
+    padding-bottom: 12px;
+    padding-right: 5rem;
+}
+.accordion .interior .card-body {
+    padding-top: 15px;
+}
+.accordion .card-header {
+    background:#fff;
+    font-family: "din-medium";
+    border-top: 1px solid rgba(0,0,0,.125);
+    background: #f8f8f8;
+}
+.accordion .card-header h4{
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.accordion .card-header h5{
+    font-size: 14px;
+}
+.accordion  a,
+.accordion  a:hover,
+.accordion  a:active {
+    color: #222;
+    text-decoration: none;
+}
+
+.accordion .card-header span.icon-open-bold {
+    background-image: url(../img/icon-open-bold.png);
+    width: 20px;
+    height: 20px;
+    float: right;
+    transform: rotate(180deg);
+    color: #c0c0c0;
+    font-size: 18px;
+}
+.accordion .card-header .collapsed span.icon-open-bold {
+    transform: rotate(0deg);
+}
+.accordion .interior .card-header h4{
+    text-transform: initial;
+}
+.accordion .card-body .icon-doc {
+    background-image: url(../img/icon-pdf.png);
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-bottom: -4px;
+    margin-right: 7px;
+}
+.accordion .card-body .doc {
+    font-family: "din-light";
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.accordion .card-body .doc a{
+    color: #6b6b6b;
+}
+.accordion .interior .card-header {
+    background-color: #fff;
+    border-top: 0px;
+}
+
+.accordion .interior .card-header .icon-open {
+    background-image: url(../img/icon-open.png);
+    height: 19px;
+    width: 19px;
+    display: inline-block;
+    float: right;
+}
+.accordion .interior .collapsed .card-header .icon-open {
+    transform: rotate(0deg);
+}
+
+
