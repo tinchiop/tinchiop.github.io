@@ -1,0 +1,9 @@
+.hero-area-bg {
+    background: url(../img/cuba.jpg) no-repeat;
+    background-size: cover;
+}
+
+img.logo {
+    width: 140px;
+    height: auto;
+}
