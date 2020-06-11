@@ -1,0 +1,151 @@
+.headerYPF-mant {
+	height: auto;
+	padding: 15px 0px;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%);
+	box-shadow: 0 8px 15px -5px #333;
+	position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.cont-cuerpo {
+	text-align: center;
+	margin: auto;
+	margin-top: 60px;
+}
+
+.cont-img {
+	margin: 30px 0px;
+}
+
+.titulo {
+	font-size: 25px;
+	line-height: 28px;
+	font-family: 'din-black';
+	text-transform: uppercase;
+	color: #0065c2;
+}
+
+.descripcion {
+	font-size: 23px;
+	line-height: 26px;
+	font-family: 'din-regular';
+	color: #636363;
+}
+
+/* Social Link */
+
+.social-links-mantenimiento {
+	text-align: center;
+}
+
+.cont-social-links {
+	padding: 0px;
+}
+
+.cont-social-links ul {
+	display: block;
+}
+
+.cont-social-links li {
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	width: 190px;
+	margin-bottom: 10px;
+}
+@media (max-width: 1199px) {
+	.cont-social-links li {
+		width: 150px;
+	}
+}
+@media (max-width: 991px) {
+	.cont-social-links li {
+		width: 98px;
+	}
+}
+@media (max-width: 767px) {
+	.cont-social-links li {
+		width: 125px;
+	}
+}
+@media (max-width: 576px) {
+	.cont-social-links li {
+		width: 93px;
+	}
+}
+
+.social {
+	background-color: #bbb;
+	display: block;
+	margin: auto;
+	width: 37px;
+	height: 37px;
+	border-radius: 18px;
+}
+
+.social .icono {
+	background-repeat: no-repeat;
+	display: block;
+	width: 37px;
+	height: 37px;
+	margin: auto;
+	background-position-y: 3px;
+	background-position-x: 3px;
+}
+
+.social .icono.fb {
+	background-image: url(../img/fb.png);
+}
+
+.social .icono.tw {
+	background-image: url(../img/tw.png);
+}
+
+.social .icono.in {
+	background-image: url(../img/in.png);
+}
+
+.social .icono.lin {
+	background-image: url(../img/lin.png);
+}
+
+.social .icono.yt {
+	background-image: url(../img/yt.png);
+}
+
+.titulo-red {
+	display: inline-block;
+	font-family: din-medium;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #bbb;
+}
+
+.titulo-red:hover {
+	color: #545454;
+}
+
+.social:hover {
+	background-color: #545454;
+}
+
+.social-links-mantenimiento .titulo {
+	color: #545454;
+    font-size: 21px;
+    font-family: "din-black";
+    padding: 30px 0 0px 0;
+    margin-bottom: 0px;
+}
+.social-links-mantenimiento .subtitulo {
+	color: #545454;
+    font-size: 18px;
+    font-family: "din-medium";
+    padding: 0 0 20px 0;
+}
+.legales {
+	color: #545454;
+    font-size: 11px;
+    font-family: arial, helvetica, sans-serif;
+    line-height: 56px
+}
