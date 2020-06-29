@@ -1,4 +1,4 @@
-.headerYPF-mant {
+.pag-mant .headerYPF-mant {
 	height: auto;
 	padding: 15px 0px;
 	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%);
@@ -8,18 +8,18 @@
     z-index: 2;
 }
 
-.cont-cuerpo {
+.pag-mant .cont-cuerpo {
 	text-align: center;
 	margin: auto;
 	margin-top: 60px;
 	margin-bottom: 30px;
 }
 
-.cont-img {
+.pag-mant .cont-img {
 	margin: 40px 0px 18px 0px;
 }
 
-.titulo {
+.pag-mant .titulo {
 	font-size: 25px;
 	line-height: 28px;
 	font-family: 'din-black';
@@ -27,7 +27,7 @@
 	color: #0065c2;
 }
 
-.descripcion {
+.pag-mant .descripcion {
 	font-size: 23px;
 	line-height: 26px;
 	font-family: 'din-regular';
@@ -36,19 +36,19 @@
 
 /* Social Link */
 
-.social-links-mantenimiento {
+.pag-mant .social-links-mantenimiento {
 	text-align: center;
 }
 
-.cont-social-links {
+.pag-mant .cont-social-links {
 	padding: 0px;
 }
 
-.cont-social-links ul {
+.pag-mant .cont-social-links ul {
 	display: block;
 }
 
-.cont-social-links li {
+.pag-mant .cont-social-links li {
 	list-style: none;
 	display: inline-block;
 	text-align: center;
@@ -56,27 +56,27 @@
 	margin-bottom: 10px;
 }
 @media (max-width: 1199px) {
-	.cont-social-links li {
+	.pag-mant .cont-social-links li {
 		width: 150px;
 	}
 }
 @media (max-width: 991px) {
-	.cont-social-links li {
+	.pag-mant .cont-social-links li {
 		width: 98px;
 	}
 }
 @media (max-width: 767px) {
-	.cont-social-links li {
+	.pag-mant .cont-social-links li {
 		width: 125px;
 	}
 }
 @media (max-width: 576px) {
-	.cont-social-links li {
+	.pag-mant .cont-social-links li {
 		width: 93px;
 	}
 }
 
-.social {
+.pag-mant .social {
 	background-color: #bbb;
 	display: block;
 	margin: auto;
@@ -85,7 +85,7 @@
 	border-radius: 18px;
 }
 
-.social .icono {
+.pag-mant .social .icono {
 	background-repeat: no-repeat;
 	display: block;
 	width: 37px;
@@ -95,27 +95,27 @@
 	background-position-x: 3px;
 }
 
-.social .icono.fb {
+.pag-mant .social .icono.fb {
 	background-image: url(../img/fb.png);
 }
 
-.social .icono.tw {
+.pag-mant .social .icono.tw {
 	background-image: url(../img/tw.png);
 }
 
-.social .icono.in {
+.pag-mant .social .icono.in {
 	background-image: url(../img/in.png);
 }
 
-.social .icono.lin {
+.pag-mant .social .icono.lin {
 	background-image: url(../img/lin.png);
 }
 
-.social .icono.yt {
+.pag-mant .social .icono.yt {
 	background-image: url(../img/yt.png);
 }
 
-.titulo-red {
+.pag-mant .titulo-red {
 	display: inline-block;
 	font-family: din-medium;
 	font-size: 12px;
@@ -123,28 +123,28 @@
 	color: #bbb;
 }
 
-.titulo-red:hover {
+.pag-mant .titulo-red:hover {
 	color: #545454;
 }
 
-.social:hover {
+.pag-mant .social:hover {
 	background-color: #545454;
 }
 
-.social-links-mantenimiento .titulo {
+.pag-mant .social-links-mantenimiento .titulo {
 	color: #545454;
     font-size: 21px;
     font-family: "din-black";
     padding: 30px 0 0px 0;
     margin-bottom: 0px;
 }
-.social-links-mantenimiento .subtitulo {
+.pag-mant .social-links-mantenimiento .subtitulo {
 	color: #545454;
     font-size: 18px;
     font-family: "din-medium";
     padding: 0 0 20px 0;
 }
-.legales {
+.pag-mant .legales {
 	color: #545454;
     font-size: 11px;
     font-family: arial, helvetica, sans-serif;
