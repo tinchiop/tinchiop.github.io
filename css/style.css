@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'geosans';
+    src: url("../fonts/GeosansLight.ttf");    
+    font-weight: normal;
+}
+.menu {
+	background-color: #00beac;
+	display: block;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.75);
+	width: 100%;
+}
+
+.lista {
+	display: inline-block;
+	float: right;
+	margin-right: 40px;
+}
+
+.lista li {
+	display: inline-block;
+}
+
+.nav-link {
+	color: #fff;
+}
+
+.column {
+	border: 1px solid #fdfdfd;
+	cursor: move;
+	float: left;
+	height: 60px;
+	text-align: center;
+	width: 60px;
+	background-image: url(../img/tablero.png);
+}
+@media(max-width: 991px){
+	.column {
+		height: 55px;
+		width: 55px;
+	}
+	.column img {
+		height: 53px!important;
+		width: 53px!important;
+	}
+}
+@media(max-width: 767px){
+	.column {
+		height: 39px;
+		width: 39px;
+	}
+	.column img {
+		height: 35px!important;
+		width: 35px!important;
+	}
+}
+
+.column img {
+	width: 55px;
+	height: 55px;
+	-webkit-box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.75);
+}
+
+.logo {
+	width: 120px;
+	margin: 15px 0;
+	display: inline-block;
+	margin-left: 119px;
+}
+
+.column header {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	box-shadow: 5px;
+	color: #fff;
+	padding: 5px;
+}
+
+.column {
+	transition: transform 0.2s ease-out;
+}
+
+.column.over {
+	border: 2px dashed #00a99d;
+	background-image: url(../img/tablero-over.png);
+}
+
+.column .count {
+	font-weight: bold;
+	padding-top: 15px;
+	text-shadow: #fff 0 1px;
+}
+
+.repuesto .column {
+	margin-left: 38px;
+}
+.cont-img-inicio {
+	text-align: center;
+	margin-top: 15%;
+}
+.img-inicio {
+	width: 300px;
+}
+.cont-boton {
+	text-align: center;
+	margin-top: 50px;
+}
+.cont-boton a{
+	color: #fff;
+	text-transform: uppercase;
+	border: 1px solid #fff;	
+	padding: 15px 120px;
+}
+.cont-boton a:hover{
+	color: #00a99d;
+	background-color: #fff;
+	text-decoration: none;
+}
+.titulo {
+	font-family: geosans, arial ;
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+}
+.descripcion,
+ul li {
+	color: #fff;
+	font-family: geosans, arial;
+	font-size: 23px;
+}
+.cont-boton.derecha {
+	text-align: right;
+}
