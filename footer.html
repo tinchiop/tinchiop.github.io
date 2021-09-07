@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer prueba</title>
+
+    <style>
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .estilo-titulo {
+            font-size: 1.5rem;
+        }
+
+        .estilo-1 {
+            font-size: 1.2rem;
+        }
+
+        .estilo-2 {
+            font-size: 1rem;
+        }
+
+        .estilo-3 {
+            font-size: 0.8rem;
+        }
+
+        .cont-contacto a {
+            text-decoration: none;
+        }
+
+        .cont-contacto a:hover {
+            text-decoration: underline;
+        }
+
+        .cont-contacto .contacto {
+            color: #000;
+        }
+    </style>
+
+    <style>
+        #appmenu {
+            width: 80%;
+            float: left;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            padding: .25em;
+        }
+
+        #appmenu li {
+            white-space: nowrap;
+            display: block;
+            padding: .25em .75em;
+            border: 1px solid #fff;
+        }
+
+        #appmenu>li {
+            float: left;
+            text-align: center;
+            position: relative;
+            cursor: pointer;
+        }
+
+        F #appmenu :hover,
+        #appmenu :focus {
+            background-color: #fff;
+            color: #036;
+            border: 1px solid #036;
+            text-decoration: underline;
+        }
+
+        #appmenu :hover li,
+        #appmenu :focus li {
+            color: #fff;
+        }
+
+        #appmenu>li>ul {
+            display: none;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 100%;
+            padding: 0;
+            margin: 0;
+            width: 200%;
+            text-align: left;
+        }
+
+        #appmenu>li[aria-expanded="true"]>ul {
+            display: block;
+        }
+
+        .icono {
+            display: block;
+            width: 37px;
+            height: 37px;
+        }
+
+        .icono.face {
+            background-image: url(https://www.ypf.com/PublishingImages/Redes%20Sociales/iconos-fb.png);
+        }
+
+        .icono.insta {
+            background-image: url(https://www.ypf.com/PublishingImages/Redes%20Sociales/iconos-ig.png);
+        }
+
+        .icono.tw {
+            background-image: url(https://www.ypf.com/PublishingImages/Redes%20Sociales/iconos-twitter.png);
+        }
+        .redes{
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <footer>
+        <nav aria-label="mapa de sitio">
+            <div class="cont-lista">
+                <h3 class="estilo-titulo" id="todo-sobre-ypf"> Todo sobre YPF</h3>
+                <ul aria-labelledby="todo-sobre-ypf">
+                    <li class="estilo-1">
+                        <a href="#">La Compañia</a>
+                    </li>
+                    <li class="estilo-2">
+                        <a href="#">Innovamos</a>
+                    </li>
+                    <li class="estilo-3">
+                        <a href="#">Produccimos</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="cont-lista">
+                <h3 class="estilo-titulo" id="ypf-hoy"> YPF Hoy</h3>
+                <ul aria-labelledby="ypf-hoy">
+                    <li class="estilo-1">
+                        <a href="#">Novedades</a>
+                    </li>
+                    <li class="estilo-2">
+                        <a href="#">Noticias</a>
+                    </li>
+                    <li class="estilo-3">
+                        <a href="#">YPF Videos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav aria-label="legales">
+            <div class="cont-lista">
+                <ul>
+                    <li class="estilo-1">
+                        <a href="#">terminos y condiciones</a>
+                    </li>
+                    <li class="estilo-2">
+                        <a href="#">extranet</a>
+                    </li>
+                    <li class="estilo-3">
+                        <a href="#">proveedores</a>
+                    </li>
+                    <li class="estilo-3">
+                        <a href="#">BCRA</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav aria-label="contacto">
+            <div class="cont-logo">
+                <a href="#" title="ypf.com">
+                    <img src="https://www.ypf.com/_layouts/YPF.Portals.HeaderFooter/css/assets/head-foot/logo.png"
+                    alt="">
+                </a>
+            </div>
+            <div class="cont-lista">
+                <ul>
+                    <li class="cont-contacto">
+                        <a href="tel:+080099999"><span class="contacto">Telefono: </span>080099999</a>
+                    </li>
+                    <li class="cont-contacto">
+                        <a href="mailto:ypf@ypf.com"><span class="contacto">Email: </span> ypf@ypf.com</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav>
+            <ul role="menubar"aria-label="redes sociales" id="appmenu">
+                <li role="menuitem" aria-haspopup="true" tabindex="0" aria-expanded="false">
+                    <a href="" id="ypf.com"> Ypf.com</a>
+                    <ul aria-labelledby="ypf.com" role="menu">
+                        <li role="menuitem" tabindex="-1"> <a href="#" class="redes">
+                                <span class="icono face"></span>Facebook</a> </li>
+                        <li role="menuitem" tabindex="-1"> <a href="#" class="redes">
+                                <span class="icono insta"></span>instagram</a> </li>
+                        <li role="menuitem" tabindex="-1"> <a href="#" class="redes">
+                                <span class="icono tw"></span>Twitter</a> </li>
+                    </ul>
+                </li>
+                <li role="menuitem" aria-haspopup="true" tabindex="-1" aria-expanded="false">
+                    <a href="#">YPF Serviclub</a>
+                    <ul role="menu">
+                        <li role="menuitem" tabindex="-1"> <a href="#" class="redes">
+                                <span class="icono face"></span>Facebook</a> </li>
+                        <li role="menuitem" tabindex="-1"> <a href="#" class="redes">
+                                <span class="icono insta"></span>instagram</a> </li>
+                        <li role="menuitem" tabindex="-1"> <a href="#" class="redes">
+                                <span class="icono tw"></span>Twitter</a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+
+
+    </footer>
+</body>
+<script>
+    var appsMenuItems = document.querySelectorAll('#appmenu > li');
+    var subMenuItems = document.querySelectorAll('#appmenu > li li');
+    var keys = {
+        tab: 9,
+        enter: 13,
+        esc: 27,
+        space: 32,
+        left: 37,
+        up: 38,
+        right: 39,
+        down: 40
+    };
+    var currentIndex, subIndex;
+
+    var gotoIndex = function (idx) {
+        if (idx == appsMenuItems.length) {
+            idx = 0;
+        } else if (idx < 0) {
+            idx = appsMenuItems.length - 1;
+        }
+        appsMenuItems[idx].focus();
+        currentIndex = idx;
+    };
+
+    var gotoSubIndex = function (menu, idx) {
+        var items = menu.querySelectorAll('li');
+        if (idx == items.length) {
+            idx = 0;
+        } else if (idx < 0) {
+            idx = items.length - 1;
+        }
+        items[idx].focus();
+        subIndex = idx;
+    }
+
+    Array.prototype.forEach.call(appsMenuItems, function (el, i) {
+        if (0 == i) {
+            el.setAttribute('tabindex', '0');
+            el.addEventListener("focus", function () {
+                currentIndex = 0;
+            });
+        } else {
+            el.setAttribute('tabindex', '-1');
+        }
+        el.addEventListener("focus", function () {
+            subIndex = 0;
+            Array.prototype.forEach.call(appsMenuItems, function (el, i) {
+                el.setAttribute('aria-expanded', "false");
+            });
+        });
+        el.addEventListener("click", function (event) {
+            if (this.getAttribute('aria-expanded') == 'false' || this.getAttribute('aria-expanded') == null) {
+                this.setAttribute('aria-expanded', "true");
+            } else {
+                this.setAttribute('aria-expanded', "false");
+            }
+            event.preventDefault();
+            return false;
+        });
+        el.addEventListener("keydown", function (event) {
+            var prevdef = false;
+            switch (event.keyCode) {
+                case keys.right:
+                    gotoIndex(currentIndex + 1);
+                    prevdef = true;
+                    break;
+                case keys.left:
+                    gotoIndex(currentIndex - 1);
+                    prevdef = true;
+                    break;
+                case keys.tab:
+                    if (event.shiftKey) {
+                        gotoIndex(currentIndex - 1);
+                    } else {
+                        gotoIndex(currentIndex + 1);
+                    }
+                    prevdef = true;
+                    break;
+                case keys.enter:
+                case keys.down:
+                    this.click();
+                    subindex = 0;
+                    gotoSubIndex(this.querySelector('ul'), 0);
+                    prevdef = true;
+                    break;
+                case keys.up:
+                    this.click();
+                    var submenu = this.querySelector('ul');
+                    subindex = submenu.querySelectorAll('li').length - 1;
+                    gotoSubIndex(submenu, subindex);
+                    prevdef = true;
+                    break;
+                case keys.esc:
+                    document.querySelector('#escape').setAttribute('tabindex', '-1');
+                    document.querySelector('#escape').focus();
+                    prevdef = true;
+            }
+            if (prevdef) {
+                event.preventDefault();
+            }
+        });
+    });
+
+    Array.prototype.forEach.call(subMenuItems, function (el, i) {
+        el.setAttribute('tabindex', '-1');
+        el.addEventListener("keydown", function (event) {
+            switch (event.keyCode) {
+                case keys.tab:
+                    if (event.shiftKey) {
+                        gotoIndex(currentIndex - 1);
+                    } else {
+                        gotoIndex(currentIndex + 1);
+                    }
+                    prevdef = true;
+                    break;
+                case keys.right:
+                    gotoIndex(currentIndex + 1);
+                    prevdef = true;
+                    break;
+                case keys.left:
+                    gotoIndex(currentIndex - 1);
+                    prevdef = true;
+                    break;
+                case keys.esc:
+                    gotoIndex(currentIndex);
+                    prevdef = true;
+                    break;
+                case keys.down:
+                    gotoSubIndex(this.parentNode, subIndex + 1);
+                    prevdef = true;
+                    break;
+                case keys.up:
+                    gotoSubIndex(this.parentNode, subIndex - 1);
+                    prevdef = true;
+                    break;
+                case keys.enter:
+                case keys.space:
+                    alert(this.innerText);
+                    prevdef = true;
+                    break;
+            }
+            if (prevdef) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+            return false;
+        });
+        el.addEventListener("click", function (event) {
+            alert(this.innerHTML);
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        });
+    });
+</script>
+
+</html>
